@@ -5,8 +5,8 @@ body {
 
 video {
   position: relative;
-  top: -105px;
-  left: -200px;
+  top: -7em;
+  left: -15%;
   width: 140%;
   height: 140%;
 }
@@ -15,17 +15,19 @@ nav#menu{
   position: fixed;
   display: flex;
   flex-direction: row;
-  left: -128px;
-  top: -10px;
-  width: 1536px;
-  height: 128px;
+  left: -1vw;
+  top: -1vh;
+  width: 100vw;
+  height: 20vh;
   background-color: slategray;
   z-index: 2;
   align-items: center;
 }
 
 img.menuItem {
-  flex: 1;
+  position: relative;
+  top: .2em;
+  flex: 2;
 }
 
 div.space1 {
@@ -33,22 +35,22 @@ div.space1 {
 }
 
 div.space2 {
-  flex: 3;
+  flex: 9;
 }
 
 p.menuItem {
   color: #e8ebef;
-  flex: 1;
+  flex: 2;
   text-align: center;
 }
 
 p.menuItem:hover {
   color: #ffc10a;
-  flex: 1;
+  flex: 2;
 }
 
 nav p {
-  font-family: impact, fantasy;
+  font-family: trade-marker light;
   font-size: 18pt;
 }
 
@@ -60,35 +62,35 @@ p.selectedItem {
 
 p.header {
   color: #e8ebef;
-  font-family: impact, fantasy;
+  font-family: trade-marker light;
   font-size: 50pt;
-  margin-left: 50px;
+  margin-left: 1em;
 }
 
 p.link {
   color: #e8ebef;
-  font-family: impact, fantasy;
+  font-family: trade-marker light;
   font-size: 18pt;
-  margin-left: 50px;
+  margin-left: 1em;
 }
 
 a.go {
   position: relative;
   color: #e8ebef;
-  font-family: impact, fantasy;
+  font-family: trade-marker light;
   font-size: 50pt;
-  text-indent: 100px;
-  left: 75px;
+  left: 1em;
 }
 
 div.blog {
   background-image: url("blog.png");
+  background-position: center;
   background-size: cover;
   position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -96,50 +98,54 @@ div.blog {
 
 div.releases {
   background-image: url("releases.png");
+  background-position: center;
   background-size: cover;
   position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
 }
 
 div.team {
-  background-image: url("team.png");
-  background-size: cover;
-  position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
-  outline-style: ridge;
-  outline-color: #e8ebef;
-  outline-width: thick;
+    background-image: url("team.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 110%;
+    left: -1em;
+    top: -23em;
+    outline-style: ridge;
+    outline-color: #e8ebef;
+    outline-width: thick;
 }
 
 div.faq {
   background-image: url("faq.png");
+  background-position: center;
   background-size: cover;
   position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
 }
 div.about {
   background-image: url("about.png");
+  background-position: center;
   background-size: cover;
   position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -147,6 +153,6 @@ div.about {
 
 footer p {
   color: #e8ebef;
-  font-family: fantasy;
+  font-family: trade-marker light;
   font-size: 10pt;
 }
