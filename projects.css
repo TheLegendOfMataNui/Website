@@ -81,9 +81,83 @@ a.go {
   left: 75px;
 }
 
-div.members {
+a.repo {
   position: relative;
-  height: 840px;
+  color: #e8ebef;
+  font-family: impact, fantasy;
+  font-size: 18pt;
+  margin-left: 50px;
+}
+
+div.sagejs {
+  position: relative;
+  height: 540px;
+  width: 1440px;
+  left: -10px;
+  top: -300px;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+div.lomntool {
+  position: relative;
+  height: 540px;
+  width: 1440px;
+  left: -10px;
+  top: -300px;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+div.lomnhook {
+  position: relative;
+  height: 540px;
+  width: 1440px;
+  left: -10px;
+  top: -300px;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+div.shoefitterdx {
+  position: relative;
+  height: 540px;
+  width: 1440px;
+  left: -10px;
+  top: -300px;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+div.vsosi {
+  position: relative;
+  height: 540px;
+  width: 1440px;
+  left: -10px;
+  top: -300px;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+div.sagefileformats {
+  position: relative;
+  height: 540px;
+  width: 1440px;
+  left: -10px;
+  top: -300px;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+div.launcher {
+  position: relative;
+  height: 540px;
   width: 1440px;
   left: -10px;
   top: -300px;

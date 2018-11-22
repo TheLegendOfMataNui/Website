@@ -15,7 +15,7 @@ nav#menu{
   position: fixed;
   display: flex;
   flex-direction: row;
-  left: -128px;
+  left: -118px;
   top: -10px;
   width: 1536px;
   height: 128px;
@@ -83,6 +83,20 @@ a.go {
 
 div.blog {
   background-image: url("blog.png");
+  background-size: cover;
+  position: relative;
+  height: 540px;
+  width: 1440px;
+  left: -10px;
+  top: -300px;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+
+div.projects {
+  background-image: url("releases.png");
   background-size: cover;
   position: relative;
   height: 540px;
