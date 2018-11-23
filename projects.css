@@ -82,8 +82,14 @@ a.go {
   margin-left: 1em;
 }
 
-div.blog {
-  background-image: url("blog.png");
+a.repo {
+  font-family: lucida, 'lucida sans', sans-serif;
+  color: #e8ebef;
+  font-size: 18pt;
+  margin-left: 2em;
+}
+
+div.sagejs {
   background-position: center;
   background-size: cover;
   position: relative;
@@ -97,8 +103,7 @@ div.blog {
 }
 
 
-div.projects {
-  background-image: url("releases.png");
+div.lomntool {
   background-position: center;
   background-size: cover;
   position: relative;
@@ -111,8 +116,7 @@ div.projects {
   outline-width: thick;
 }
 
-div.releases {
-  background-image: url("releases.png");
+div.lomnhook {
   background-position: center;
   background-size: cover;
   position: relative;
@@ -126,7 +130,6 @@ div.releases {
 }
 
 div.team {
-    background-image: url("team.png");
     background-position: center;
     background-size: cover;
     position: relative;
@@ -139,8 +142,7 @@ div.team {
     outline-width: thick;
 }
 
-div.faq {
-  background-image: url("faq.png");
+div.shoefitterdx {
   background-position: center;
   background-size: cover;
   position: relative;
@@ -152,8 +154,34 @@ div.faq {
   outline-color: #e8ebef;
   outline-width: thick;
 }
-div.about {
-  background-image: url("about.png");
+
+div.vsosi {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+div.sagefileformats {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+div.launcher {
   background-position: center;
   background-size: cover;
   position: relative;
