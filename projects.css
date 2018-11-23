@@ -5,8 +5,8 @@ body {
 
 video {
   position: relative;
-  top: -105px;
-  left: -200px;
+  top: -7em;
+  left: -15%;
   width: 140%;
   height: 140%;
 }
@@ -15,17 +15,19 @@ nav#menu{
   position: fixed;
   display: flex;
   flex-direction: row;
-  left: -118px;
-  top: -10px;
-  width: 1536px;
-  height: 128px;
+  left: -1vw;
+  top: -1vh;
+  width: 100vw;
+  height: 20vh;
   background-color: slategray;
   z-index: 2;
   align-items: center;
 }
 
 img.menuItem {
-  flex: 1;
+  position: relative;
+  top: .2em;
+  flex: 2;
 }
 
 div.space1 {
@@ -33,26 +35,27 @@ div.space1 {
 }
 
 div.space2 {
-  flex: 3;
+  flex: 9;
 }
 
 p.menuItem {
   color: #e8ebef;
-  flex: 1;
+  flex: 2;
   text-align: center;
 }
 
 p.menuItem:hover {
   color: #ffc10a;
-  flex: 1;
+  flex: 2;
 }
 
 nav p {
-  font-family: impact, fantasy;
+  font-family: lucida, 'lucida sans', sans-serif;
   font-size: 18pt;
 }
 
 p.selectedItem {
+  font-family: lucida, 'lucida sans', sans-serif;
   color: #ffc10a;
   flex: 1;
   text-align: center;
@@ -60,107 +63,132 @@ p.selectedItem {
 
 p.header {
   color: #e8ebef;
-  font-family: impact, fantasy;
+  font-family: lucida, 'lucida sans', sans-serif;
   font-size: 50pt;
-  margin-left: 50px;
+  margin-left: 1em;
 }
 
 p.link {
+  font-family: lucida, 'lucida sans', sans-serif;
   color: #e8ebef;
-  font-family: impact, fantasy;
   font-size: 18pt;
-  margin-left: 50px;
+  margin-left: 2em;
 }
 
 a.go {
-  position: relative;
   color: #e8ebef;
-  font-family: impact, fantasy;
+  font-family: lucida, 'lucida sans', sans-serif;;
   font-size: 50pt;
-  text-indent: 100px;
-  left: 75px;
+  margin-left: 1em;
 }
 
 a.repo {
-  position: relative;
+  font-family: lucida, 'lucida sans', sans-serif;
   color: #e8ebef;
-  font-family: impact, fantasy;
   font-size: 18pt;
-  margin-left: 50px;
+  margin-left: 2em;
 }
 
 div.sagejs {
+  background-position: center;
+  background-size: cover;
   position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
 }
 
+
 div.lomntool {
+  background-position: center;
+  background-size: cover;
   position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
 }
 
 div.lomnhook {
+  background-position: center;
+  background-size: cover;
   position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
 }
 
+div.team {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 110%;
+    left: -1em;
+    top: -23em;
+    outline-style: ridge;
+    outline-color: #e8ebef;
+    outline-width: thick;
+}
+
 div.shoefitterdx {
+  background-position: center;
+  background-size: cover;
   position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
 }
 
 div.vsosi {
+  background-position: center;
+  background-size: cover;
   position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
 }
 
 div.sagefileformats {
+  background-position: center;
+  background-size: cover;
   position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
 }
 
 div.launcher {
+  background-position: center;
+  background-size: cover;
   position: relative;
-  height: 540px;
-  width: 1440px;
-  left: -10px;
-  top: -300px;
+  height: 100%;
+  width: 110%;
+  left: -1em;
+  top: -23em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -168,6 +196,7 @@ div.launcher {
 
 footer p {
   color: #e8ebef;
-  font-family: fantasy;
+  font-family: lucida, 'lucida sans', sans-serif;
   font-size: 10pt;
+  margin-left: 2em;
 }
