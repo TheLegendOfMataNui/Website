@@ -3,21 +3,13 @@ body {
   background-color: black;
 }
 
-video {
-  position: relative;
-  top: -7em;
-  left: -15%;
-  width: 140%;
-  height: 140%;
-}
-
 nav#menu{
   position: fixed;
   display: flex;
   flex-direction: row;
-  left: -1vw;
   top: -1vh;
-  width: 100vw;
+  left: -1vw;
+  width: 102vw;
   height: 20vh;
   background-color: slategray;
   z-index: 2;
@@ -35,29 +27,33 @@ div.space1 {
 }
 
 div.space2 {
-  flex: 9;
+  flex: 2;
 }
 
-p.menuItem {
+a {
+  text-decoration:none;
+}
+
+a.menuItem {
   color: #e8ebef;
   flex: 2;
   text-align: center;
 }
 
-p.menuItem:hover {
+a.menuItem:hover {
   color: #ffc10a;
   flex: 2;
 }
 
-nav p {
+nav a {
   font-family: lucida, 'lucida sans', sans-serif;
   font-size: 18pt;
 }
 
-p.selectedItem {
+a.selectedItem {
   font-family: lucida, 'lucida sans', sans-serif;
   color: #ffc10a;
-  flex: 1;
+  flex: 2;
   text-align: center;
 }
 
@@ -75,14 +71,6 @@ p.link {
   margin-left: 2em;
 }
 
-a.go {
-  color: #e8ebef;
-  font-family: lucida, 'lucida sans', sans-serif;;
-  font-size: 50pt;
-  margin-left: 1em;
-}
-
-
 a.notes {
   font-family: lucida, 'lucida sans', sans-serif;
   color: #e8ebef;
@@ -95,16 +83,18 @@ div.lomnreleases {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 100%;
-  width: 110%;
+  height: 25em;
+  width: 86em;
   left: -1em;
-  top: -23em;
+  top: 5em;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
 }
 
 footer p {
+  position: relative;
+  top: 28em;
   color: #e8ebef;
   font-family: lucida, 'lucida sans', sans-serif;
   font-size: 10pt;
