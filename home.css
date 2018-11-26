@@ -5,7 +5,7 @@ body {
 
 video {
   position: relative;
-  top: -7em;
+  margin-top: -7.5%;
   left: -15%;
   width: 140%;
   height: 140%;
@@ -26,7 +26,7 @@ nav#menu{
 
 img.menuItem {
   position: relative;
-  top: .2em;
+  margin-top: .6%;
   flex: 2;
 }
 
@@ -35,7 +35,7 @@ div.space1 {
 }
 
 div.space2 {
-  flex: 2;
+  flex: 1;
 }
 
 a {
@@ -46,6 +46,7 @@ a.menuItem {
   color: #e8ebef;
   flex: 2;
   text-align: center;
+  font-size: 18pt;
 }
 
 a.menuItem:hover {
@@ -63,27 +64,28 @@ a.selectedItem {
   color: #ffc10a;
   flex: 2;
   text-align: center;
+  font-size: 18pt;
 }
 
 p.header {
   color: #e8ebef;
   font-family: lucida, 'lucida sans', sans-serif;
   font-size: 50pt;
-  margin-left: 1em;
+  margin-left: 4%;
 }
 
 p.link {
   font-family: lucida, 'lucida sans', sans-serif;
   color: #e8ebef;
   font-size: 18pt;
-  margin-left: 2em;
+  margin-left: 5%;
 }
 
 a.go {
   color: #e8ebef;
   font-family: lucida, 'lucida sans', sans-serif;
   font-size: 50pt;
-  margin-left: 1em;
+  margin-left: 4%;
 }
 
 div.blog {
@@ -91,10 +93,10 @@ div.blog {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: -23em;
+  height: 125%;
+  width: 112.5%;
+  left: -1%;
+  margin-top: -27%;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -106,10 +108,10 @@ div.projects {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: -23em;
+  height: 125%;
+  width: 112.5%;
+  left: -1%;
+
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -120,10 +122,9 @@ div.releases {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: -23em;
+  height: 125%;
+  width: 112.5%;
+  left: -1%;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -134,10 +135,9 @@ div.team {
     background-position: center;
     background-size: cover;
     position: relative;
-    height: 25em;
-    width: 86em;
-    left: -1em;
-    top: -23em;
+    height: 125%;
+    width: 112.5%;
+    left: -1%;
     outline-style: ridge;
     outline-color: #e8ebef;
     outline-width: thick;
@@ -148,10 +148,9 @@ div.faq {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: -23em;
+  height: 125%;
+  width: 112.5%;
+  left: -1%;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -161,10 +160,9 @@ div.about {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: -23em;
+  height: 125%;
+  width: 112.5%;
+  left: -1%;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -174,5 +172,5 @@ footer p {
   color: #e8ebef;
   font-family: lucida, 'lucida sans', sans-serif;
   font-size: 10pt;
-  margin-left: 2em;
+  margin-left: 2%;
 }
