@@ -15,10 +15,208 @@ nav#menu{
   position: fixed;
   display: flex;
   flex-direction: row;
-  top: -1vh;
-  left: -1vw;
-  width: 102vw;
+  margin-top: -1.2vh;
+  margin-left: -1vw;
+  width: 105vw;
   height: 20vh;
+  background-color: slategray;
+  z-index: 2;
+  align-items: center;
+}
+
+img.menuItem {
+  position: relative;
+  margin-top: .6%;
+  flex: 2;
+}
+
+div.space {
+  flex: 1;
+}
+
+a {
+  text-decoration:none;
+}
+
+a.menuItem {
+  color: #e8ebef;
+  flex: 2;
+  text-align: center;
+  font-size: 5vh;
+}
+
+a.menuItem:hover {
+  color: #ffc10a;
+  flex: 2;
+}
+
+nav a {
+  font-family: lucida, 'lucida sans', sans-serif;
+  font-size: 5vh;
+}
+
+a.selectedItem {
+  font-family: lucida, 'lucida sans', sans-serif;
+  color: #ffc10a;
+  flex: 2;
+  text-align: center;
+  font-size: 5vh;
+}
+
+p.header {
+  color: #e8ebef;
+  font-family: lucida, 'lucida sans', sans-serif;
+  font-size: 10vh;
+  margin-left: 4%;
+}
+
+p.link {
+  font-family: lucida, 'lucida sans', sans-serif;
+  color: #e8ebef;
+  font-size: 5vh;
+  margin-left: 5%;
+}
+
+a.go {
+  color: #e8ebef;
+  font-family: lucida, 'lucida sans', sans-serif;
+  font-size: 10vh;
+  margin-left: 4%;
+}
+
+a.go:hover {
+  color: #ffc10a;
+}
+
+div.blog {
+  background-image: url("blog.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  margin-top: -18.25%;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+
+div.projects {
+  background-image: url("releases.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+div.releases {
+  background-image: url("releases.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+div.team {
+    background-image: url("team.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 125%;
+    width: 90%;
+    left: -1%;
+    outline-style: ridge;
+    outline-color: #e8ebef;
+    outline-width: thick;
+}
+
+div.faq {
+  background-image: url("faq.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+div.about {
+  background-image: url("about.png");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  outline-style: ridge;
+  outline-color: #e8ebef;
+  outline-width: thick;
+}
+
+@media screen and (max-width: 750px){
+  video {
+    width: 0%;
+    height: 0%;
+  }
+  div.blog {
+    background-image: url("blog.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 10%;
+    height: 125%;
+    width: 90%;
+    left: -1%;
+    margin-top: 20%;
+    outline-style: ridge;
+    outline-color: #e8ebef;
+    outline-width: thick;
+  }
+}
+
+footer p {
+  color: #e8ebef;
+  font-family: lucida, 'lucida sans', sans-serif;
+  font-size: 3vh;
+  margin-left: 2%;
+}
+
+/*body {
+  overflow-x: hidden;
+  background-color: black;
+}
+
+video {
+  position: relative;
+  margin-top: -7.5%;
+  left: -15%;
+  width: 140%;
+  height: 140%;
+}
+
+nav#menu{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  margin-top: -1%;
+  margin-left: -1%;
+  width: 105%;
+  height: 20%;
   background-color: slategray;
   z-index: 2;
   align-items: center;
@@ -94,9 +292,9 @@ div.blog {
   background-size: cover;
   position: relative;
   height: 125%;
-  width: 112.5%;
+  width: 90%;
   left: -1%;
-  margin-top: -27%;
+  margin-top: -18.25%;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -109,7 +307,7 @@ div.projects {
   background-size: cover;
   position: relative;
   height: 125%;
-  width: 112.5%;
+  width: 90%;
   left: -1%;
 
   outline-style: ridge;
@@ -123,7 +321,7 @@ div.releases {
   background-size: cover;
   position: relative;
   height: 125%;
-  width: 112.5%;
+  width: 90%;
   left: -1%;
   outline-style: ridge;
   outline-color: #e8ebef;
@@ -136,7 +334,7 @@ div.team {
     background-size: cover;
     position: relative;
     height: 125%;
-    width: 112.5%;
+    width: 90%;
     left: -1%;
     outline-style: ridge;
     outline-color: #e8ebef;
@@ -149,23 +347,45 @@ div.faq {
   background-size: cover;
   position: relative;
   height: 125%;
-  width: 112.5%;
+  width: 90%;
   left: -1%;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
 }
+
 div.about {
   background-image: url("about.png");
   background-position: center;
   background-size: cover;
   position: relative;
   height: 125%;
-  width: 112.5%;
+  width: 90%;
   left: -1%;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
+}
+
+@media screen and (max-width: 750px){
+  video {
+    width: 0%;
+    height: 0%;
+  }
+  div.blog {
+    background-image: url("blog.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 10%;
+    height: 125%;
+    width: 90%;
+    left: -1%;
+    margin-top: 20%;
+    outline-style: ridge;
+    outline-color: #e8ebef;
+    outline-width: thick;
+  }
 }
 
 footer p {
@@ -173,4 +393,4 @@ footer p {
   font-family: lucida, 'lucida sans', sans-serif;
   font-size: 10pt;
   margin-left: 2%;
-}
+}*/

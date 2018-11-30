@@ -7,9 +7,9 @@ nav#menu{
   position: fixed;
   display: flex;
   flex-direction: row;
-  left: -1vw;
-  top: -1vh;
-  width: 102vw;
+  margin-top: -1.2vh;
+  margin-left: -1vw;
+  width: 105vw;
   height: 20vh;
   background-color: slategray;
   z-index: 2;
@@ -18,16 +18,12 @@ nav#menu{
 
 img.menuItem {
   position: relative;
-  top: .2em;
+  margin-top: .6%;
   flex: 2;
 }
 
-div.space1 {
+div.space {
   flex: 1;
-}
-
-div.space2 {
-  flex: 2;
 }
 
 a {
@@ -38,6 +34,7 @@ a.menuItem {
   color: #e8ebef;
   flex: 2;
   text-align: center;
+  font-size: 5vh;
 }
 
 a.menuItem:hover {
@@ -47,7 +44,7 @@ a.menuItem:hover {
 
 nav a {
   font-family: lucida, 'lucida sans', sans-serif;
-  font-size: 18pt;
+  font-size: 5vh;
 }
 
 a.selectedItem {
@@ -55,48 +52,32 @@ a.selectedItem {
   color: #ffc10a;
   flex: 2;
   text-align: center;
+  font-size: 5vh;
 }
 
-p.header {
-  color: #e8ebef;
-  font-family: lucida, 'lucida sans', sans-serif;
-  font-size: 50pt;
-  margin-left: 1em;
-}
-
-p.link {
-  font-family: lucida, 'lucida sans', sans-serif;
-  color: #e8ebef;
-  font-size: 18pt;
-  margin-left: 2em;
-}
-
-a.go {
-  color: #e8ebef;
-  font-family: lucida, 'lucida sans', sans-serif;
-  font-size: 50pt;
-  margin-left: 1em;
-}
-
-div.members {
-  background-image: url("team.png");
-  background-position: center;
-  background-size: cover;
+div.bio {
+  display: flex;
+  background-color: darkgray;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: 5em;
+  height: 125%;
+  width: 90%;
+  left: -1%;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
 }
 
+p.descr {
+  font-family: lucida, 'lucida sans', sans-serif;
+  color: #e8ebef;
+  font-size: 4vh;
+  margin-left: 5%;
+}
+
 footer p {
-  position:relative;
-  top: 28em;
+  position: relative;
   color: #e8ebef;
   font-family: lucida, 'lucida sans', sans-serif;
-  font-size: 10pt;
-  margin-left: 2em;
+  font-size: 3vh;
+  margin-left: 4%;
 }

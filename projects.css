@@ -7,9 +7,9 @@ nav#menu{
   position: fixed;
   display: flex;
   flex-direction: row;
-  left: -1vw;
-  top: -1vh;
-  width: 102vw;
+  margin-top: -10vh;
+  margin-left: -1vw;
+  width: 105vw;
   height: 20vh;
   background-color: slategray;
   z-index: 2;
@@ -18,16 +18,12 @@ nav#menu{
 
 img.menuItem {
   position: relative;
-  top: .2em;
+  margin-top: .6%;
   flex: 2;
 }
 
-div.space1 {
+div.space {
   flex: 1;
-}
-
-div.space2 {
-  flex: 2;
 }
 
 a {
@@ -38,6 +34,7 @@ a.menuItem {
   color: #e8ebef;
   flex: 2;
   text-align: center;
+  font-size: 5vh;
 }
 
 a.menuItem:hover {
@@ -47,7 +44,7 @@ a.menuItem:hover {
 
 nav a {
   font-family: lucida, 'lucida sans', sans-serif;
-  font-size: 18pt;
+  font-size: 5vh;
 }
 
 a.selectedItem {
@@ -55,37 +52,42 @@ a.selectedItem {
   color: #ffc10a;
   flex: 2;
   text-align: center;
+  font-size: 5vh;
 }
 
 p.header {
   color: #e8ebef;
   font-family: lucida, 'lucida sans', sans-serif;
-  font-size: 50pt;
-  margin-left: 1em;
+  font-size: 10vh;
+  margin-left: 4%;
 }
 
 p.link {
   font-family: lucida, 'lucida sans', sans-serif;
   color: #e8ebef;
-  font-size: 18pt;
-  margin-left: 2em;
+  font-size: 5vh;
+  margin-left: 5%;
 }
 
 a.repo {
   font-family: lucida, 'lucida sans', sans-serif;
   color: #e8ebef;
-  font-size: 18pt;
-  margin-left: 2em;
+  font-size: 5vh;
+  margin-left: 4%;
+}
+
+a.repo:hover {
+  color: #ffc10a;
 }
 
 div.sagejs {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: 5em;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  top: 20vh;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -96,10 +98,10 @@ div.lomntool {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: 5em;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  top: 20vh;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -109,36 +111,23 @@ div.lomnhook {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: 5em;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  top: 20vh;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
-}
-
-div.team {
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    height: 25em;
-    width: 86em;
-    left: -1em;
-    top: 5em;
-    outline-style: ridge;
-    outline-color: #e8ebef;
-    outline-width: thick;
 }
 
 div.shoefitterdx {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: 5em;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  top: 20vh;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -148,10 +137,10 @@ div.vsosi {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: 5em;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  top: 20vh;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -161,10 +150,10 @@ div.sagefileformats {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: 5em;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  top: 20vh;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -174,10 +163,10 @@ div.launcher {
   background-position: center;
   background-size: cover;
   position: relative;
-  height: 25em;
-  width: 86em;
-  left: -1em;
-  top: 5em;
+  height: 125%;
+  width: 90%;
+  left: -1%;
+  top: 20vh;
   outline-style: ridge;
   outline-color: #e8ebef;
   outline-width: thick;
@@ -185,9 +174,9 @@ div.launcher {
 
 footer p {
   position: relative;
-  top: 28em;
+  top: 20vh;
   color: #e8ebef;
   font-family: lucida, 'lucida sans', sans-serif;
-  font-size: 10pt;
-  margin-left: 2em;
+  font-size: 3vh;
+  margin-left: 4%;
 }
